@@ -1,0 +1,396 @@
+@prefix : <http://qiu-torrents-kg/biomedical/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Aceclofenac a :AntiInflammatory ;
+    :Relieves :Arthritis,
+        :Pancreatitis .
+
+:Acyclovir a :Antiviral ;
+    :Treats :Herpes,
+        :Shingles .
+
+:Alzheimers a :Degenerative .
+
+:Amoxicillin a :Antibiotic ;
+    :Treats :BacterialInfection,
+        :OtitisMedia .
+
+:Amphotericin a :Antifungal ;
+    :Treats :Aspergillosis,
+        :CryptococcalMeningitis ;
+    :Worsens :KidneyDamage .
+
+:Aspirin a :AntiInflammatory ;
+    :Relieves :RheumatoidArthritis ;
+    :Worsens :GastrointestinalBleeding .
+
+:Azithromycin a :Antibiotic ;
+    :Treats :Bronchitis,
+        :Cellulitis .
+
+:Buprenorphine a :Analgesic .
+
+:Ceftriaxone a :Antibiotic ;
+    :Treats :Gonorrhea,
+        :Meningitis .
+
+:Celecoxib a :AntiInflammatory ;
+    :Relieves :CrohnsDisease,
+        :RheumatoidArthritis ;
+    :Worsens :Gastritis .
+
+:CeliacDisease a :Autoimmune .
+
+:Cephalexin a :Antibiotic ;
+    :Treats :OtitisMedia,
+        :WoundInfection .
+
+:Ciprofloxacin a :Antibiotic ;
+    :Treats :Salmonellosis,
+        :UrinaryTractInfection .
+
+:Clarithromycin a :Antibiotic ;
+    :Treats :BacterialSinusitis,
+        :Cellulitis .
+
+:Clindamycin a :Antibiotic ;
+    :Treats :BacterialConjunctivitis,
+        :WoundInfection .
+
+:Codeine a :Analgesic ;
+    :Relieves :ChronicPain ;
+    :Worsens :Constipation .
+
+:Dexibuprofen a :AntiInflammatory ;
+    :Relieves :Hepatitis .
+
+:Diclofenac a :AntiInflammatory ;
+    :Relieves :Psoriasis,
+        :Spondylitis ;
+    :Worsens :Esophagitis .
+
+:Diflunisal a :AntiInflammatory .
+
+:Diphtheria a :Infectious .
+
+:Doxycycline a :Antibiotic ;
+    :Treats :Cholera,
+        :LymeDisease .
+
+:Epilepsy a :Disease .
+
+:Erythromycin a :Antibiotic ;
+    :Treats :BacterialConjunctivitis,
+        :Impetigo .
+
+:Favipiravir a :Antiviral .
+
+:Fluconazole a :Antifungal ;
+    :Treats :Candidiasis,
+        :CryptococcalMeningitis .
+
+:Flurbiprofen a :AntiInflammatory ;
+    :Relieves :Sinusitis .
+
+:Fosfomycin a :Antibiotic .
+
+:Gabapentin a :Analgesic ;
+    :Relieves :Fibromyalgia,
+        :Neuropathy .
+
+:Griseofulvin a :Antifungal .
+
+:Huntingtons a :Degenerative .
+
+:Hypertension a :Disease .
+
+:Hyperthyroidism a :Metabolic .
+
+:Hypothyroidism a :Metabolic .
+
+:Ibuprofen a :AntiInflammatory ;
+    :Relieves :Arthritis,
+        :Osteoarthritis ;
+    :Worsens :GastricUlcer,
+        :PepticUlcer .
+
+:Indomethacin a :AntiInflammatory ;
+    :Relieves :Gout,
+        :Tendinitis ;
+    :Worsens :GastricUlcer .
+
+:Itraconazole a :Antifungal ;
+    :Treats :Aspergillosis,
+        :Histoplasmosis .
+
+:Ketoprofen a :AntiInflammatory ;
+    :Relieves :Tendinitis,
+        :UlcerativeColitis ;
+    :Worsens :AcidReflux .
+
+:Ketorolac a :AntiInflammatory .
+
+:Levofloxacin a :Antibiotic ;
+    :Treats :Pneumonia,
+        :UrinaryTractInfection .
+
+:Levothyroxine a :Drug .
+
+:MacularDegeneration a :Degenerative .
+
+:MefenamicAcid a :AntiInflammatory ;
+    :Relieves :Vasculitis .
+
+:Meloxicam a :AntiInflammatory ;
+    :Relieves :Arthritis,
+        :Bursitis ;
+    :Worsens :StomachIrritation .
+
+:Meropenem a :Antibiotic ;
+    :Treats :Pneumonia,
+        :Sepsis .
+
+:Metformin a :Drug .
+
+:Metronidazole a :Antibiotic ;
+    :Treats :BacterialInfection,
+        :Endocarditis .
+
+:Morphine a :Analgesic ;
+    :Relieves :ChronicPain,
+        :Neuropathy ;
+    :Worsens :RespiratoryDepression .
+
+:MultipleSclerosis a :Autoimmune .
+
+:Myasthenia a :Autoimmune .
+
+:Nabumetone a :AntiInflammatory ;
+    :Relieves :Gout,
+        :Osteoarthritis .
+
+:Naproxen a :AntiInflammatory ;
+    :Relieves :Bursitis,
+        :Osteoarthritis ;
+    :Worsens :DuodenalUlcer .
+
+:Nystatin a :Antifungal ;
+    :Treats :Candidiasis,
+        :OralThrush .
+
+:Obesity a :Metabolic .
+
+:Omeprazole a :Drug .
+
+:Oseltamivir a :Antiviral ;
+    :Treats :Influenza .
+
+:Osteoporosis a :Degenerative .
+
+:Paracetamol a :Analgesic ;
+    :Relieves :Headache,
+        :Osteoarthritis ;
+    :Worsens :LiverDamage .
+
+:Parkinsons a :Degenerative .
+
+:Penicillin a :Antibiotic ;
+    :Treats :Pneumonia,
+        :StrepThroat .
+
+:Pericarditis a :Inflammatory .
+
+:Phenylketonuria a :Metabolic .
+
+:Piroxicam a :AntiInflammatory ;
+    :Relieves :Dermatitis,
+        :Lupus ;
+    :Worsens :Dyspepsia .
+
+:Pleurisy a :Inflammatory .
+
+:Polymyxin a :Antibiotic .
+
+:Pregabalin a :Analgesic ;
+    :Relieves :Fibromyalgia,
+        :Neuropathy .
+
+:Relieves rdfs:subPropertyOf :Affects .
+
+:Remdesivir a :Antiviral ;
+    :Treats :COVID19 .
+
+:Ribavirin a :Antiviral ;
+    :Treats :HepatitisC,
+        :RSVInfection .
+
+:Rifampicin a :Antibiotic ;
+    :Treats :Meningitis,
+        :Tuberculosis .
+
+:Sulindac a :AntiInflammatory ;
+    :Relieves :Spondylitis,
+        :Vasculitis ;
+    :Worsens :IntestinalBleeding .
+
+:Terbinafine a :Antifungal ;
+    :Treats :Onychomycosis,
+        :RingwormInfection .
+
+:Tetanus a :Infectious .
+
+:Tetracycline a :Antibiotic ;
+    :Treats :Cholera,
+        :Syphilis .
+
+:Tramadol a :Analgesic ;
+    :Relieves :ChronicPain,
+        :Neuropathy .
+
+:Treats rdfs:subPropertyOf :Affects .
+
+:Type1Diabetes a :Autoimmune .
+
+:Type2Diabetes a :Metabolic .
+
+:Valacyclovir a :Antiviral ;
+    :Treats :Herpes,
+        :Shingles .
+
+:Vancomycin a :Antibiotic ;
+    :Treats :Endocarditis,
+        :Sepsis .
+
+:Vitiligo a :Autoimmune .
+
+:Worsens rdfs:subPropertyOf :Affects .
+
+:BacterialSinusitis a :Infectious .
+
+:Bronchitis a :Infectious .
+
+:COVID19 a :Infectious .
+
+:CrohnsDisease a :Inflammatory .
+
+:Dermatitis a :Inflammatory .
+
+:Gonorrhea a :Infectious .
+
+:Headache a :Disease .
+
+:Hepatitis a :Inflammatory .
+
+:HepatitisC a :Infectious .
+
+:Histoplasmosis a :Infectious .
+
+:Impetigo a :Infectious .
+
+:Influenza a :Infectious .
+
+:Lupus a :Inflammatory .
+
+:LymeDisease a :Infectious .
+
+:Onychomycosis a :Infectious .
+
+:OralThrush a :Infectious .
+
+:Pancreatitis a :Inflammatory .
+
+:Psoriasis a :Inflammatory .
+
+:RSVInfection a :Infectious .
+
+:RingwormInfection a :Infectious .
+
+:Salmonellosis a :Infectious .
+
+:Sinusitis a :Inflammatory .
+
+:StrepThroat a :Infectious .
+
+:Syphilis a :Infectious .
+
+:Tuberculosis a :Infectious .
+
+:UlcerativeColitis a :Inflammatory .
+
+:Aspergillosis a :Infectious .
+
+:BacterialConjunctivitis a :Infectious .
+
+:BacterialInfection a :Infectious .
+
+:Bursitis a :Inflammatory .
+
+:Candidiasis a :Infectious .
+
+:Cellulitis a :Infectious .
+
+:Cholera a :Infectious .
+
+:CryptococcalMeningitis a :Infectious .
+
+:Endocarditis a :Infectious .
+
+:Fibromyalgia a :Disease .
+
+:Gout a :Inflammatory .
+
+:Herpes a :Infectious .
+
+:Meningitis a :Infectious .
+
+:OtitisMedia a :Infectious .
+
+:RheumatoidArthritis a :Inflammatory .
+
+:Sepsis a :Infectious .
+
+:Shingles a :Infectious .
+
+:Spondylitis a :Inflammatory .
+
+:Tendinitis a :Inflammatory .
+
+:UrinaryTractInfection a :Infectious .
+
+:Vasculitis a :Inflammatory .
+
+:WoundInfection a :Infectious .
+
+:Affects rdfs:domain :Drug ;
+    rdfs:range :Disease .
+
+:Arthritis a :Inflammatory .
+
+:ChronicPain a :Disease .
+
+:Pneumonia a :Infectious .
+
+:Neuropathy a :Degenerative .
+
+:Osteoarthritis a :Inflammatory .
+
+:Autoimmune rdfs:subClassOf :Disease .
+
+:Metabolic rdfs:subClassOf :Disease .
+
+:Antifungal rdfs:subClassOf :Drug .
+
+:Antiviral rdfs:subClassOf :Drug .
+
+:Degenerative rdfs:subClassOf :Disease .
+
+:Analgesic rdfs:subClassOf :Drug .
+
+:AntiInflammatory rdfs:subClassOf :Drug .
+
+:Antibiotic rdfs:subClassOf :Drug .
+
+:Inflammatory rdfs:subClassOf :Disease .
+
+:Infectious rdfs:subClassOf :Disease .
+
