@@ -1,12 +1,22 @@
-# Semantic Data Management — Lab 2: Knowledge Graph
+# Biomedical Knowledge Graph
 
-An RDF/RDFS knowledge graph modelling drugs, diseases, class hierarchies, property hierarchies, and their relations.
+An RDF/RDFS knowledge graph for representing drugs, diseases, and clinically meaningful relationships such as treatment, symptom relief, and adverse effects.
+
+## What it models
+
+- Drug and disease entities with biomedical type hierarchies
+- Anti-inflammatory and antibiotic drug categories
+- Inflammatory and infectious disease categories
+- Treatment, relief, and worsening relationships
+- RDFS subclass, subproperty, domain, and range semantics
+
+The generated graph includes a small curated example alongside synthetic biomedical entities and relations for exploring RDF/RDFS modelling patterns.
 
 ## Contents
 
-- `G11-QiuTorrents.py` — builds and serializes the graph
-- `G11-QiuTorrents.ttl` — generated Turtle graph
-- `SDM_KG_Lab.pdf` — submitted report
+- `G11-QiuTorrents.py` — creates and serializes the graph
+- `G11-QiuTorrents.ttl` — generated Turtle dataset
+- `SDM_KG_Lab.pdf` — project report
 
 ## Run
 
@@ -17,7 +27,7 @@ pip install -r requirements.txt
 python G11-QiuTorrents.py
 ```
 
-The script regenerates `G11-QiuTorrents.ttl` in the current folder.
+Running the script regenerates `G11-QiuTorrents.ttl`.
 
 ## Author
 
